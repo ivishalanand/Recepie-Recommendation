@@ -131,3 +131,6 @@ dmypy.json
 similarity_matrix_df.csv
 scraper/chromedriver
 similarity_matrix.csv
+
+.DS_Store
+.idea
