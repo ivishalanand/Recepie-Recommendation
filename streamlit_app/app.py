@@ -87,7 +87,7 @@ try:
             url = meal_url_mapper.loc[recommendation]["url"]
             prep_time = meal_url_mapper.loc[recommendation]["prep_time"]
             region = meal_url_mapper.loc[recommendation]["region"]
-            st.write("🍕" + recommendation + " ⏳ " + prep_time + " 🌎 " + region + " [link](" + url + ")")
+            st.write("🍕" + recommendation + " ⏳ " + prep_time + " 🌎 " + region + " [cook](" + url + ")" + " 🍳")
             # st.write("check out this [link](url)")
 
         # st.altair_chart(chart, use_container_width=True)
