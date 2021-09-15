@@ -5,6 +5,8 @@ This framework uses content based recommendation model to recommend Meals  to us
 * Please find the working web based app here [http://15.206.185.241:8501/](http://15.206.185.241:8501/)  
 * Please find the hosted rest endpoint to test recommendations here [https://recommendation-recipe.azurewebsites.net/docs](https://recommendation-recipe.azurewebsites.net/docs) 
 
+## Demo
+![alt text](temp/demo.gif)
 
 ## Workflows
 
