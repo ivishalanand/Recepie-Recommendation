@@ -15,6 +15,8 @@ This framework uses content based recommendation model to recommend Meals  to us
 * Recommendation Engine
 * Recommendation Api using Azure Functions and FastAPI
 * Web based streamlit app on Azure
+* Architecture
+
 
 
 ### Web scraping
@@ -66,6 +68,8 @@ Streamlit is an open-source python framework for building web apps for Machine L
 
 Using Streamlit, the frontend is created which takes input as meal choices and sends the meals to api hosted on azure, the response of which is processed and displayed in the app.
  
+### Architecture
+![Alt text](temp/architecture.png)
 
 ### Different types of Recipe Recommendations ( Future work)
 
