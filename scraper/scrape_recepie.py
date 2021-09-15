@@ -52,7 +52,7 @@ def get_allergen(soup, meal, index, url):
         text = soup.find_all("div", class_="AllergensPanel_subtitle__6tpxA typography_fontSemiBold__I_LGP")[0].getText()
         allergen = text[text.find("(") + 1:text.find(")")].split(",")
     except:
-        allergen = `None`
+        allergen = None
         print_and_log("get_allergen", index, meal, url)
 
     return allergen
