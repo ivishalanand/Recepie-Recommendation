@@ -72,7 +72,20 @@ Using Streamlit, the frontend is created which takes input as meal choices and s
 ![Alt text](temp/architecture.png)
 
 ### Different types of Recipe Recommendations ( Future work)
-
+Recommendation Flavors | Description | Type
+--- | --- | --- 
+“Related to meals you’ve viewed” suggestions |	Encourage users to add items to their plan which are similar to what they planning on eating. | Item-Item Content based recommendation |																					--- | --- | --- 
+Displaying a list of suggested meals based on the similar users meal buying history	(“Recommended for you”) |  Recommending meal combos based on users which are similar to current user, based on their purchase pattern. – will help the user to discover and try out new cuisines which are cooked by people who are similar to them. | User based collaborative filtering/ Hybrid recommendation |
+“Featured recommendation”	| We show most popular products on the homepage or the items which are in huge demands and also the items from the long tail to increase discovery.	| Algorithmic
+People are also cooking <meal combo> this week | Similar users purchase history to be used to show recommendation to the current users.| 	User based Collaborative filtering / Hybrid Recommendation
+“Recently viewed”	| Showing people the meals on which they have spent most time interacting in current session. | 	Session based recommendation
+“Customers who cooked [this item] also have cooked [that item]” recommendations | 	Provide social proof and peer-generated recommendations of relevant meals the user may be interested in. For eg- (Fries related meals are shown in the recommendation for burger dishes). | 	Item based collaborative filtering
+“Since you already tried this, you may also want to try this out” | Personalize recommendations by showing meals related to previous purchase orders - Eg - Tuna salad can be shown as recommendation to Corn and lettuce salad.	| Content based recommendation
+Generate meal bundles (meals frequently purchased together/  dinner combos) |	Based on item and users interaction data generate best meal plans for users. |	Content based recommendation
+"Highest Rated" recommendations in meal category / subcategory recommendations | 	Injecting some social proof into the product recommendations by displaying items that have the highest customer reviews. |	Algorithmic
+Food Recommendations for the upcoming holidays or festival or other special events. |	Self explanatory |	Algorithmic
+Input ingredients -> Output meals Recommendations |	Users input ingredients from their own kitchen and we produce a list of recommendations which they can cook from. |	Deep Learning Based Recommendation
+Input food item image from any source -> output ingredients of the food and suggest similar meals from Gousto catalogue. |	Users click a picture of a food they seem to find tasty ( from the internet etc.) we show the ingredients what makes up that dish and also similar items from gousto recipe and upsell those items.	| Deep Learning Based Recommendation
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
