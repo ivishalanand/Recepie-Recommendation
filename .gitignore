@@ -131,4 +131,3 @@ dmypy.json
 similarity_matrix_df.csv
 scraper/chromedriver
 similarity_matrix.csv
-fastapi_azure/similarity_matrix.csv
